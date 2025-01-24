@@ -64,8 +64,9 @@ FOREIGN KEY (DepartmentId) REFERENCES department(Id)
 </li>
 <li>Configure a conexão com o banco no arquivo <code>db.properties</code>:
     <pre><code>
-private static final String URL = "jdbc:mysql://localhost:3306/seu_banco_de_dados";
-private static final String USER = "seu_usuario";
-private static final String PASSWORD = "sua_senha";
+user=seu_usuario
+password=sua_senha
+dburl=jdbc:mysql://localhost:3306/seu_banco_de_dados
+useSSL=false
     </code></pre>
 </li>
